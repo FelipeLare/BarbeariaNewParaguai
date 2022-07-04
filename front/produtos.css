@@ -77,3 +77,15 @@ nav a:hover {
     font-weight: bold;
     margin: 10px 0 0 0;
 }
+
+footer {
+    text-align: center;
+    background: url(bg.jpg);  /*para adicionanr imagem sem ser pelo html*/
+    padding: 40px;
+}
+
+.copyrigth {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
