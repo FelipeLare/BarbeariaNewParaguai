@@ -1,3 +1,47 @@
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caixa-navegacao { 
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
 #banner {
     width: 100%;
 }
@@ -39,7 +83,7 @@ em strong {
     padding: 20px;
 }
 
-ul {
+.itnes {
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -50,3 +94,19 @@ ul {
     width: 50% ;
 }
 
+
+
+
+
+
+footer {
+    text-align: center;
+    background: url(bg.jpg);  /*para adicionanr imagem sem ser pelo html*/
+    padding: 40px;
+}
+
+.copyrigth {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
