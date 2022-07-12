@@ -33,71 +33,50 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-#banner {
-    width: 100%;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.principal {
-    background: #cccccc;
-    padding: 30px;
-}
-
-.tituloPrincipal {
-    padding-left: 20px;
-}
-
-
-.tituloCentralizado {
-    text-align: center;
-}
-
-
-p {
-    text-align: center;
-}
-
-#missao {
-   font-size: 20px;
-}
-
-em strong {
-    color: red;
-}
-
-
-.listaDeItens {
-    font-style: italic;
-}
-
-.beneficios {
-    background: #ffffff;
-    padding: 20px;
-}
-
-.itnes {
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15% ;
+    margin: 0 1.5%;    /* 30% cada mais 1.5% entre eles = 100% */
+    padding: 30px 20px; /* esse padding faz a conta quebrar e os produtos desalinham (box sizing para resolver */
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.imagemBeneficios {
-    width: 50% ;
+.produtos li:hover {
+    color: #c78c19;
 }
 
+.produtos li:active {   /*enquanto o mouse estiver clicado no item*/
+    border-color: #088c19;
+}
 
+.produtos li:hover h2 {
+    font-size: 34px;
+}
 
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
 
+.produto-descricao {
+    font-size: 18px;
+}
 
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
 
 footer {
     text-align: center;
