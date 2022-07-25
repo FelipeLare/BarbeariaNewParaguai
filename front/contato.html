@@ -39,8 +39,8 @@
             <label for="mensagem" >Mensagem</label>
             <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
-            <div>
-                <p>Como prefere o nosso contato?</p>
+            <fieldset> <!--para organizar e fazer algo direcionado para um grupo especifico usamos fieldset-->
+                <legend>Como prefere o nosso contato?</legend> <!--para títulos no fieldset se usa a tag legend-->
 
                 <label for="radio-email"><input type="radio" name="contato" value="e-mail" id="radio-email">Email</label>
                  <!--name="" faz com que os 3 façam parte do mesmo grupo, assim quando osegundo é marcado, o anterior é desmarcado -->
@@ -48,16 +48,16 @@
                 <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
 
                 <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label> <!--checked faz com que essa opção esteja marcada por padrão--> 
-            </div>
+            </fieldset>
                 
-            <div>
-                <p>Qual horário prefere ser atendido?</p>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
                 <select>
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
-            </div>
+            </fieldset>
 
             <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label> <!--é possivel colocar input dentro da tag label-->
            
