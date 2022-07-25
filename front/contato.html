@@ -36,8 +36,22 @@
             <label for="telefone">Telefone</label>
             <input type="text" id="telefone">
 
-            <input type="submit" value="Enviar Formulário"> <!--value garante que o nome esteja em portugues na página-->
+            <label for="mensagem" >Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem"></textarea>
 
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="e-mail" id="radio-email"> <!--name="" faz com que os 3 façam parte do mesmo grupo, assim quando osegundo é marcado, o anterior é desmarcado -->
+
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+
+                <input type="submit" value="Enviar Formulário"> <!--value garante que o nome esteja em portugues na página-->
+            </div>
         </form> 
 
     </main>
