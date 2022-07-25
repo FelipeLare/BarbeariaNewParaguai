@@ -62,10 +62,31 @@
             <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label> <!--é possivel colocar input dentro da tag label-->
            
             <input type="submit" value="Enviar Formulário" class="enviar"> <!--value garante que o nome esteja em portugues na página-->
-            
-           
 
         </form> 
+
+        <table> <!--Na criação,primeiro cria a quantidade de linhas desejadas(tr) e depois o numero de colunas(td)-->
+            <thead><!--em vez de <tr> usa-se <thead> para indicar que é o cabeçalho-->
+                <tr>
+                    <th>Dia</th> <!--como é cabeçalho, usa-se <th> em vez de <td>-->
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody> <!--usa-se <tbody> para mostrar que é o corpo da tabela-->
+                <tr>
+                    <td>Segunda</td>
+                    <td>08:00H ~ 20:00H</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>08:00H ~ 20:00H</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>08:00H ~ 20:00H</td>
+                </tr>
+            </tbody>
+        </table>
 
     </main>
 
