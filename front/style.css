@@ -173,3 +173,7 @@ td, th {
 .principal em {
     font-style: italic;
 }
+
+.imagemBeneficios {
+    width: 60%;
+}
