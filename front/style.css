@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #bbbbbb;
     padding: 20px 0;
@@ -160,6 +164,7 @@ td, th {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;     /* limpa toda a alteração que o float(utensilios) fez no resto da página*/
 }
 
 .principal p {
@@ -175,9 +180,9 @@ td, th {
 }
 
 .utensilios {
-    width: 150px;
-    float: left;
-    
+    width: 120px;
+    float: left;   /*float afeta todo o comportamento da pagina que está abaixo. necessário limpar o float (.tituloPrincipal)*/
+    margin: 0 20px 20px 0;
 }
 
 .imagemBeneficios {
