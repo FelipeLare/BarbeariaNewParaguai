@@ -193,6 +193,10 @@ td, th {
 
 .mapa {
     padding: 3em 0;
+    
+}
+
+.mapaConteudo {
     width: 940px;
     margin: 0 auto;
 }
