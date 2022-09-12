@@ -185,6 +185,16 @@ td, th {
     margin: 0 20px 20px 0;
 }
 
+.conteudoBeneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listaBeneficios {
+    width: 40%;
+    display: inline-block;
+}
+
 .imagemBeneficios {
     width: 60%;
 }
@@ -202,3 +212,4 @@ td, th {
     width: 560px;
     margin: 1em auto;
 }
+
