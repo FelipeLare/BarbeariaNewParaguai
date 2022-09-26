@@ -243,3 +243,50 @@ td, th {
     margin: 2em auto;
 }
 
+/* Seletores Avançados
+
+(seleciona o primeiro filho "p" direto da section. aplica pro primeiro p e ignora os outros)
+
+section > p {  
+    background: red
+}
+
+(seleciona apenas o parágrafo e vem após a imagem. seleciona um irmão direto)
+
+img + p {
+    background: blue;
+}
+
+(vai selecionar todos os parágrfos após a imagem)
+
+img ~ p {
+background: yellow;
+}
+
+(seleciona todos os parágrafos que NÃO são a missão)
+.principal p:not(#missao) {
+background: orange;
+}
+*/
+
+
+/*Adaptando para dispositivos móveis*/
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudoBeneficios, .mapaConteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .listaBeneficios, .imagemBeneficios {
+        width: 100%;
+    }
+}
+
