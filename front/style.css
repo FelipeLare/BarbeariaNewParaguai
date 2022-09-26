@@ -273,7 +273,7 @@ background: orange;
 /*Adaptando para dispositivos móveis*/
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudoBeneficios, .mapaConteudo, .video {
+    .caixa-navegacao, .principal, .conteudoBeneficios, .mapaConteudo, .video {
         width: auto;
     }
 
