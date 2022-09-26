@@ -288,5 +288,33 @@ background: orange;
     .listaBeneficios, .imagemBeneficios {
         width: 100%;
     }
+
+    h2 {
+        width: 100%;
+        display: block;
+        margin: 20px 0;
+    }
+
+    main {
+        width: 50%;
+        display: block;
+        padding: auto;
+    }
+
+    .produtos li {
+        width: 30%;
+        display: block;
+        padding: 20px 20px;
+        margin: 20px 0 20px 80px;
+    }
+
+    .produto-descricao {
+        margin: 20px 0 0 0;
+    }
+
+    form, table {
+        padding: auto;
+        margin: 15px 20px;
+    }
 }
 
